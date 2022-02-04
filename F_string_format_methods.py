@@ -51,3 +51,28 @@ print(f"{name:*>8.3s}")
 print(f"{name:^8.3s}")
 print(f"{name:*^8.3s}")
 
+print("+++++++++++++++++++Comma Seprater++++++++++++++++++++++++")
+price = 1234567890
+print(f"{price:,}")
+print("+++++++++++++++++++++Under Score+++++++++++++++++++++++++++++")
+print(f"{price:_}")
+
+#variable
+name1 = "yuvraj"
+age1 = 27
+print(f"My Name is {name1} and age is {age1}")
+
+#expreationce
+print(f"{10*8}")
+
+a = 50
+b = 3
+print(f"{a/b:.2f}")
+
+#tuple
+value = (10,20)
+print(f"{value[0],value[1]}")
+
+#dic
+data = {"rahul":200000,"akshay":3000000}
+print(f"{data['rahul']:d} {data['akshay']:d}")

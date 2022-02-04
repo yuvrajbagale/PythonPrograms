@@ -19,4 +19,4 @@ print(str3)
 print("++++++++++++++++++++++++++ title() +++++++++++++++")
 name2 = "this is most use full fucntion to first letter capital"
 str5 = name2.title()
-print(str5  )
+print(str5)

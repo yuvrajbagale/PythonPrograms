@@ -75,3 +75,24 @@ def f1(n1,*s):
 f1(10)
 f1(10,20,30,40)
 f1(10,'A',20,'B')
+print('\n-----------------------------------------------------------\n')
+# Note -  after varibale lenght arguments if we are taking any other argument then we should provoild Value as key world arguments.
+
+def f2(*s,n1):
+    for s2 in s:
+        print(s2)
+    print(n1)
+f2('A','B',n1=100)
+
+print('\n-----------------------------------------------------------\n')
+
+# Note - We can declare key word variable lenght argument also for this we have to use **
+# def f3(**n):
+''' We Can Call This function by Passing any number of Keyword argument. internally these keyword argument will be stroed inside a dictionary'''
+
+def display(**kwargs):
+    for k,v in kwargs.items():
+        print(k,'=',v)
+display(n1=10,n2=20,n3=30)
+display(rno=100,name="Yuvraj",marks=70,subject="java")
+

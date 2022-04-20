@@ -9,4 +9,4 @@ class Test:
         print('One arguents requreied here?')
 
 
-t1=Test()
+t1=Test(10)

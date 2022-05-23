@@ -1,0 +1,5 @@
+file = open("file.txt", 'w')
+file.write('Kendarnath is the most beutifull place you must be go there\n')
+file.write('Kendarnath')
+file.write('\nThis is very most important place for india this is at the india.')
+file.close()
